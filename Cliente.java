@@ -1,5 +1,3 @@
-package JavaWeb_CORSO;
-
 import java.util.ArrayList;
 
 public class Cliente {

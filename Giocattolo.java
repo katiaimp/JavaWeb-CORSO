@@ -1,5 +1,3 @@
-package JavaWeb_CORSO;
-
 public class Giocattolo {
     private int id;
     private String nome;

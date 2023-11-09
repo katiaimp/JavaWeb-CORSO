@@ -1,5 +1,3 @@
-package JavaWeb_CORSO;
-
 import java.util.ArrayList;
 
 public class Vendita {
@@ -14,7 +12,6 @@ public class Vendita {
         this.idVendita = id;
         this.c = c;
         this.g = g;
-        this.listaGiocattolo = listaGiocattolo.add(g);
     }
 
     public void setC(Cliente c) {
