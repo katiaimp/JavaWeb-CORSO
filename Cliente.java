@@ -4,11 +4,13 @@ public class Cliente {
     private int id;
     private String nome;
     private String email;
+    private Permessi permesso;
 
-    public Cliente(int id, String nome, String email){
+    public Cliente(int id, String nome, String email, Permessi permesso){
         this.id = id;
         this.nome = nome;
         this.email = email;
+        this.permesso = permesso.USER_BASE;
     }
 
     public Cliente(){
@@ -32,6 +34,9 @@ public class Cliente {
     }
     public String getEmail() {
         return email;
+    }
+    public Permessi getPermesso() {
+        return permesso;
     }
     @Override
     public String toString() {

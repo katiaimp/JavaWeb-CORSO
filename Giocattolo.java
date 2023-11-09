@@ -1,6 +1,6 @@
 public class Giocattolo {
     private int id;
-    private String nome;
+    private static String nome;
     private double prezzo;
     private int etaConsigliata;
 
@@ -31,7 +31,7 @@ public class Giocattolo {
     public int getId() {
         return id;
     }
-    public String getNome() {
+    public static String getNome() {
         return nome;
     }
     public double getPrezzo() {
